@@ -1,0 +1,342 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-family: 'Open Sans', sans-serif;
+    --primay-color:#02918c;
+    --secadary-color:#ffffff;
+}
+.container{
+    width:1170px;
+    margin:auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+body{
+    font-family: var(--primary-family);
+}
+.align-center{
+    align-items: center;
+ }
+
+/*---------------------------------------------------*/
+#nav-bar{
+    background-color: var(--primay-color);
+}
+#nav-bar .logo-part{
+    width:40%;
+}
+
+
+.menu{
+    width:60%;
+}
+.menu ul{
+    text-align:right;
+}
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color:var(--secadary-color);
+    font-weight: 800;
+    font-size: 12px;
+    padding:25px 25px;
+    display: inline-block;
+    
+
+}
+/*---------------------------landing page--------------------------*/
+#landing-page{
+    background-image: url("../img/part-1.jpg");
+    height:730px;
+    background-repeat: no-repeat;
+    background-size:cover;
+  
+}
+#landing-page .landing-heading{
+    text-align: center;
+    padding-top:212px;
+    color:var(--secadary-color);
+}
+#landing-page .landing-heading h3{
+    font-weight: 400;
+    font-size: 30px;
+
+}
+#landing-page .landing-heading h1{
+    font-weight: 800;
+    font-size: 68px;
+    
+    letter-spacing: 17px;
+    
+}
+#landing-page .landing-heading h4{
+    font-weight: 400;
+    font-size: 18px;
+
+}
+#landing-page .landing-heading img{
+   text-align: center;
+   padding:50px 0px;
+   display: block;
+  padding-left:530px ;
+}
+#landing-page .landing-heading .butt{
+    height:50px;
+    width:200px;
+    background-color:#cfc91d;
+    display: inline-block;
+    text-decoration: none;
+    line-height: 50px;
+    color:#0b1016;
+}
+/*--------------------------------------------*/
+#aboutme{
+    text-align: center;
+}
+#aboutme h1{
+    padding-top: 100px;
+    font-weight: 800;
+    font-size: 46px;
+    color:var(--primay-color);
+}
+#aboutme p{
+    font-weight: 400;
+    font-size: 16px;
+    color:#7e8287;
+    padding:38px 170px 0px 170px;
+    line-height: 30px;
+}
+/*____________________________-----------------------------*/
+#servicess{
+    position: relative;
+    margin-bottom:100px;
+}
+#servicess .first-di{
+    width:25%;
+    
+}
+
+#servicess .first-di h1{
+    font-weight: 800;
+    font-size: 16px;
+    color:#7e8287;
+    text-align: center;
+    padding-top:182px;
+}
+#servicess .first-di p{
+    font-weight: 400;
+    font-size: 11px;
+    color:#7e8287;
+    text-align: center;
+    line-height: 18px;
+    padding-top:30px;
+    padding:30px 70px 0px 60px;
+}
+
+#servicess .first-di img{
+    position: absolute;
+    text-align: left;
+    margin-left:286px;
+    padding-top:84px;
+}
+#servicess .first-di span{
+    position: absolute;
+    margin-top:-150px;
+    margin-left: 140px;
+   
+    color:var(--primay-color);
+}
+
+/*-------------------------------------------*/
+#title{
+    padding-top: 68px;
+   
+}
+
+#title{
+    background-image: url(../img/part-2.jpg);
+    background-size: cover;
+    height:750px;
+}
+#title .landing-3 h1{
+    font-weight: 800;
+    font-size: 46px;
+    color:var(--primay-color);
+}
+#title .landing-3{
+    width: 45%;
+}
+#title .landing-3 p{
+    padding-top: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    color:#7e8287;
+    line-height: 30px;
+}
+/*
+#title .landing-3 .services-sec-1  {
+    width:50%;
+    box-sizing: border-box;
+    height: 141px;
+    color:aquamarine;
+}
+#title .landing-3 .services-sec-1 h1{
+    font-weight: 800;
+    font-size: 16px;
+    color:#7e8287;
+    padding-top: 113px;
+    display: block;
+}
+#title .landing-3 .services-sec-1 p{
+    padding-bottom: -840px;
+}*/
+#title .main-card{
+    width: 100%;
+}
+#title .services-s{
+    width:25%;
+    box-sizing: border-box;
+    
+    margin-top:60px;
+    padding:0px  100px 0px 0px;
+    display: inline-block;
+
+}
+#title .services-s span{
+    font-size: 25px;
+    color:var(--primay-color);
+}
+#title .services-s h2{
+    font-weight: 800;
+    font-size: 16px;
+    color:#7e8287;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#title .services-s .text p{
+    font-weight: 400;
+    font-size: 11px;
+
+}
+
+#my-work{
+    margin-top:100px ;
+    text-align: center;
+}
+#my-work .landing-3 p{
+    padding:20px 370px 80px 370px;
+    line-height:27px;
+    color:#7e8287;
+    
+}
+#my-work .landing-3 h1{
+    font-weight: 800;
+    font-size: 46px;
+    color:var(--primay-color);
+}   
+
+
+
+.h{
+    position: absolute;
+    margin-top: -220px;
+    background-color: #07827f;
+    width:271px;
+    height:200px;
+    margin-left: 25px;
+    transition: 0.3s;
+    color:#fff;
+    opacity: 0;
+}
+.h h1{
+    padding-top:57px;
+    font-weight: 800;
+    font-size: 16px;
+   
+}
+.h p{
+    font-weight: 400;
+    font-size: 13px;
+    padding:18px 20px  20px ;
+    line-height: 20px;
+    
+}
+.h:hover{
+    visibility: visible;
+    opacity: 0.8;
+}
+
+/*----------------------Contact---------------------------------*/
+
+#contact{
+    text-align: center;
+
+}
+#contact .landing-3 h1{
+    font-weight: 800;
+    font-size: 46px;
+    color:var(--primay-color);
+    padding-top: 100px;
+}
+
+
+#contact .landing-3 p{
+    padding: 28px  275px 70px 275px;
+    line-height: 30px;
+    color:#7e8287;
+}
+/*----------------------------End section--------------------*/
+#end-section{
+    background-color: #0b0b0b;
+    text-align: center;
+    color:#7e8287;
+    padding-top:66px;
+    text-transform: uppercase;
+}
+#end-section h1{
+    font-weight: 400;
+    font-size: 16px;
+   
+}
+#end-section img{
+    margin-bottom: 62px;
+}
+
+#end-section a{
+    width:196px;
+    height:50px;
+    background-color: #cfc91d;
+    display: block;
+    text-decoration: none;
+    line-height: 50px;
+    font-weight: 800;
+    font-size: 14px;
+    color:#0b1016;
+    margin:auto;
+    border-radius: 2px;
+   
+}
+#end-section{
+    padding-bottom: 70px;
+}
+#end-last-part{
+    height: 70px;
+    background-color: #000000;
+    color:#7e8287;
+    text-align: center;
+}
+#end-last-part h1{
+    line-height: 70px;
+    font-size: 12px;
+    font-weight: 400;
+}
